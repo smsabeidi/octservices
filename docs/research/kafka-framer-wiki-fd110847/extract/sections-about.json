@@ -1,0 +1,75 @@
+[
+  {
+    "idx": 0,
+    "name": "Black",
+    "nodes": 35,
+    "file": "00-black"
+  },
+  {
+    "idx": "1.0",
+    "name": "Hero",
+    "nodes": 10,
+    "file": "01-main--00-hero",
+    "parent": "Main"
+  },
+  {
+    "idx": "1.1",
+    "name": "Mission",
+    "nodes": 7,
+    "file": "01-main--01-mission",
+    "parent": "Main"
+  },
+  {
+    "idx": "1.2",
+    "name": "Founder",
+    "nodes": 83,
+    "file": "01-main--02-founder",
+    "parent": "Main"
+  },
+  {
+    "idx": "1.3",
+    "name": "Services",
+    "nodes": 213,
+    "file": "01-main--03-services",
+    "parent": "Main"
+  },
+  {
+    "idx": "1.4",
+    "name": "How we work",
+    "nodes": 145,
+    "file": "01-main--04-how-we-work",
+    "parent": "Main"
+  },
+  {
+    "idx": "1.5",
+    "name": "How we work",
+    "nodes": 58,
+    "file": "01-main--05-how-we-work",
+    "parent": "Main"
+  },
+  {
+    "idx": "1.6",
+    "name": "Career",
+    "nodes": 92,
+    "file": "01-main--06-career",
+    "parent": "Main"
+  },
+  {
+    "idx": 2,
+    "name": "Desktop",
+    "nodes": 150,
+    "file": "02-desktop"
+  },
+  {
+    "idx": 3,
+    "name": "Tablet",
+    "nodes": 150,
+    "file": "03-tablet"
+  },
+  {
+    "idx": 4,
+    "name": "Phone",
+    "nodes": 150,
+    "file": "04-phone"
+  }
+]

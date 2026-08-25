@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette extracted from live computed styles */
+  --color-ink: #101010;
+  --color-paper: #ffffff;
+  --color-cream: #fcfbf7;
+
+  --font-sans: var(--font-schibsted), ui-sans-serif, system-ui, sans-serif;
+  --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Type scale: measured 84/48/30/24/12 at 1280px, lh 1.1–1.2, ls -0.02em */
+  --text-display: 84px;
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.02em;
+  --text-h2: 48px;
+  --text-h2--line-height: 1.1;
+  --text-h2--letter-spacing: -0.02em;
+  --text-h3: 30px;
+  --text-h3--line-height: 1.2;
+  --text-h3--letter-spacing: -0.02em;
+  --text-h4: 24px;
+  --text-h4--line-height: 1.2;
+  --text-h4--letter-spacing: -0.02em;
+  --text-body: 12px;
+  --text-body--line-height: 1.2;
+  --text-body--letter-spacing: -0.02em;
+}
+
+:root {
+  --gutter: 36px;
+  --ink-80: rgb(16 16 16 / 0.8);
+  --ink-50: rgb(16 16 16 / 0.5);
+  --ink-20: rgb(16 16 16 / 0.2);
+}
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+  body {
+    background: var(--color-ink); /* source: body bg rgb(16,16,16); light sections paint over it */
+    color: #ffffff;
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  h1, h2, h3, h4 { font-weight: 400; letter-spacing: -0.02em; }
+}
+
+@utility shell {
+  width: 100%;
+  padding-inline: var(--gutter);
+}
+
+@media (max-width: 900px) { :root { --gutter: 24px; } }
+@media (max-width: 560px) { :root { --gutter: 16px; } }
+
+/* Scroll-entrance pass (see components/kafka/shared/ScrollReveal.tsx).
+   Framer drives these with JS springs; reproduced as a CSS transition. */
+@media (prefers-reduced-motion: no-preference) {
+  .kf-reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1),
+                transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+  }
+  .kf-reveal.kf-in {
+    opacity: 1;
+    transform: none;
+    will-change: auto;
+  }
+}
+
+/* ---------------------------------------------------------------
+   Right to left support (Arabic)
+   --------------------------------------------------------------- */
+
+/* Schibsted Grotesk and Inter carry no Arabic glyphs, so Arabic pages lead
+   with IBM Plex Sans Arabic and keep the Latin faces for any Latin runs
+   (brand name, email addresses, numerals in Latin context). */
+:root:lang(ar),
+[dir="rtl"] {
+  --font-sans: var(--font-arabic), var(--font-schibsted), ui-sans-serif, system-ui, sans-serif;
+}
+
+[dir="rtl"] body {
+  font-family: var(--font-arabic), var(--font-schibsted), ui-sans-serif, system-ui, sans-serif;
+  /* Arabic has no uppercase and rides lower; the Latin tracking is wrong for it. */
+  letter-spacing: 0;
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  letter-spacing: 0;
+}
+
+/* Arabic does not have letter case; forced uppercase renders unchanged but the
+   wide tracking used on Latin eyebrow labels looks broken, so it is reset. */
+[dir="rtl"] .uppercase {
+  letter-spacing: 0;
+}
+
+/* Arrow glyphs and chevrons are directional. Any element marked as a
+   directional affordance flips with the writing direction. */
+[dir="rtl"] [data-flip-rtl] {
+  transform: scaleX(-1);
+}
+
+/* The logo marquee scrolls left in Latin locales; reverse it so it reads with
+   the text direction in Arabic. */
+[dir="rtl"] [data-marquee] {
+  animation-direction: reverse;
+}
+
+/* ---------------------------------------------------------------
+   Multilingual long word handling
+   ---------------------------------------------------------------
+   German compounds ("Stellenbeschreibung", "Nutzungsbedingungen") are single
+   unbreakable words that exceed a narrow column at display sizes, and the
+   layout was originally proportioned around shorter English. `hyphens: auto`
+   lets the browser break at dictionary-correct points using the html lang
+   attribute set per locale; `overflow-wrap: break-word` is the fallback for
+   words the dictionary does not cover. Both only engage when a word genuinely
+   does not fit, so English rendering is unchanged. */
+h1, h2, h3, h4, h5, h6, p, li, blockquote, figcaption {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Arabic script joins cursively and must never be broken mid word. */
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3,
+[dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6,
+[dir="rtl"] p, [dir="rtl"] li, [dir="rtl"] blockquote {
+  hyphens: none;
+}
