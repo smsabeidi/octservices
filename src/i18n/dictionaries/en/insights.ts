@@ -6,10 +6,10 @@
  * src/content/kafka/articles.ts.
  *
  * Source page -> slug mapping, from the kafka.framer.wiki extraction:
- *   insight-contracts  -> building-stronger-contracts-for-long-term-security
- *   insight-disputes   -> resolving-disputes-with-clarity
- *   insight-protection -> understanding-legal-protection
- *   insight-modern     -> modern-legal-services-today
+ *   insight-contracts  -> what-makes-a-certified-translation-acceptable
+ *   insight-disputes   -> translating-academic-records-for-credential-evaluation
+ *   insight-protection -> preparing-documents-for-an-immigration-filing
+ *   insight-modern     -> terminology-management-in-business-translation
  *
  * NOT TRANSLATABLE, in any locale: `slug` is a URL identifier and must stay
  * byte identical in every language, or a shared link, a bookmark or a search
@@ -32,7 +32,7 @@ export type InsightsBlock =
   | { type: "quote"; text: string }
   /**
    * Inline rich-text image (`img.framer-text.framer-image`). Only
-   * modern-legal-services-today has one. `width`/`height` are the source img
+   * terminology-management-in-business-translation has one. `width`/`height` are the source img
    * attributes (the rendered box, capped by max-width: 100%); `ratio` is its
    * inline `aspect-ratio`, which wins because the CSS forces height: auto.
    * Carries no copy — leave it untouched when translating.
@@ -72,7 +72,7 @@ export type InsightsArticle = {
 /** Canonical order, matching the /insights listing. */
 const articles: InsightsArticle[] = [
   {
-    slug: "building-stronger-contracts-for-long-term-security",
+    slug: "what-makes-a-certified-translation-acceptable",
     title: "What makes a certified translation acceptable",
     description:
       "What a receiving authority checks when a translation is certified, and how a document is prepared so that it is accepted the first time.",
@@ -158,7 +158,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "resolving-disputes-with-clarity",
+    slug: "translating-academic-records-for-credential-evaluation",
     title: "Translating academic records for credential evaluation",
     description:
       "How transcripts, diplomas and course records are translated for admissions offices and credential evaluators, and where translation ends.",
@@ -231,7 +231,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "understanding-legal-protection",
+    slug: "preparing-documents-for-an-immigration-filing",
     title: "Preparing documents for an immigration filing",
     description:
       "How civil records, police certificates and supporting letters are translated and certified for a filing that has to be accepted.",
@@ -297,7 +297,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "modern-legal-services-today",
+    slug: "terminology-management-in-business-translation",
     title: "Terminology management in long term business translation",
     description:
       "How glossaries, translation memory and a style guide keep terminology consistent across a company’s documents over the years.",

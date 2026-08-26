@@ -11,7 +11,7 @@ import type { CareersDict, Job } from "../en/careers";
 
 const jobs: Job[] = [
   {
-    slug: "legal-assistant",
+    slug: "project-manager",
     eyebrow: "ÚNASE AL EQUIPO",
     title: "Gestor de proyectos",
     summary: "Coordine proyectos de traducción del presupuesto a la entrega: alcance, planificación, asignación de lingüistas y comunicación con el cliente.",
@@ -97,7 +97,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "corporate-lawyer",
+    slug: "senior-translator",
     eyebrow: "ÚNASE AL EQUIPO",
     title: "Traductor sénior",
     summary: "Traduzca documentos migratorios, académicos y comerciales a su lengua materna y dirija la terminología de las cuentas clave.",
@@ -182,7 +182,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "legal-associate",
+    slug: "quality-reviewer",
     eyebrow: "ÚNASE AL EQUIPO",
     title: "Revisor de calidad",
     summary: "Coteje las traducciones con el original en exactitud, integridad, terminología y formato antes de que lleguen al cliente.",

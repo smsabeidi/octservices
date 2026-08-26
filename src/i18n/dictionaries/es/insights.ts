@@ -16,7 +16,7 @@ import type { InsightsArticle, InsightsDict } from "../en/insights";
 /** Canonical order, matching the /insights listing. */
 const articles: InsightsArticle[] = [
   {
-    slug: "building-stronger-contracts-for-long-term-security",
+    slug: "what-makes-a-certified-translation-acceptable",
     title: "Qué hace aceptable una traducción certificada",
     description:
       "Qué comprueba un organismo receptor cuando una traducción va certificada y cómo se prepara un documento para que se acepte a la primera.",
@@ -102,7 +102,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "resolving-disputes-with-clarity",
+    slug: "translating-academic-records-for-credential-evaluation",
     title: "Traducir expedientes académicos para la evaluación de credenciales",
     description:
       "Cómo se traducen certificados de notas, diplomas y programas para las oficinas de admisiones y los evaluadores de credenciales, y dónde acaba la traducción.",
@@ -175,7 +175,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "understanding-legal-protection",
+    slug: "preparing-documents-for-an-immigration-filing",
     title: "Preparar documentos para un trámite migratorio",
     description:
       "Cómo se traducen y certifican las actas civiles, los certificados de antecedentes y las cartas de apoyo para un trámite que debe ser aceptado.",
@@ -241,7 +241,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "modern-legal-services-today",
+    slug: "terminology-management-in-business-translation",
     title: "Gestión terminológica en la traducción empresarial a largo plazo",
     description:
       "Cómo el glosario, la memoria de traducción y la guía de estilo mantienen coherente la terminología de una empresa a lo largo de los años.",

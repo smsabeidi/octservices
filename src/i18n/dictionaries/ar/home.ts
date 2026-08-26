@@ -131,7 +131,7 @@ export const home: Translated<HomeDict> = {
   },
 
   /** Section 06 — four alternating project cards. */
-  practiceAreas: {
+  documentTypes: {
     eyebrow: "ما نترجمه",
     heading: "عمل لغوي لا بد أن يحظى بالقبول.",
     ctaLabel: "استكشف خدماتنا",
@@ -148,7 +148,7 @@ export const home: Translated<HomeDict> = {
       },
       {
         marker: "03",
-        title: "الأعمال والقانون",
+        title: "مستندات الأعمال والمستندات القانونية",
         tags: ["العقود", "السجلات المؤسسية", "الامتثال"],
       },
       {

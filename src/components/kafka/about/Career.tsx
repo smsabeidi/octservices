@@ -20,9 +20,9 @@ import type { Dictionary } from "@/i18n/dictionaries/en";
 
 /* One job route per opening, in the same order as `about.career.jobs`. */
 const JOB_PATHS = [
-  "/careers/legal-assistant",
-  "/careers/corporate-lawyer",
-  "/careers/legal-associate",
+  "/careers/project-manager",
+  "/careers/senior-translator",
+  "/careers/quality-reviewer",
 ] as const;
 
 const metaCell =

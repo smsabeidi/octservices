@@ -26,7 +26,7 @@ import type { Dictionary } from "@/i18n/dictionaries/en";
  *   flex-end so the standfirst h5 (preset 1vgyccl, rgba(16,16,16,0.5)) hangs
  *   off the bottom; phone it unsets self-stretch and goes full width.
  * - Image (framer-ssr7x0): full-bleed, height auto with the image's own
- *   intrinsic aspect-ratio inline (1312/745 for legal-assistant, 1440/745 for
+ *   intrinsic aspect-ratio inline (1312/745 for project-manager, 1440/745 for
  *   the other two), img absolutely positioned, object-cover.
  * - Content (framer-cgqnn4): #fff, row, align-items flex-start, padding
  *   80px 36px (tablet/phone 80px 24px), phone column. Padding (framer-riynjd)

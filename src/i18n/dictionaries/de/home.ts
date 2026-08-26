@@ -126,7 +126,7 @@ export const home = {
   },
 
   /** Section 06 — four alternating project cards. */
-  practiceAreas: {
+  documentTypes: {
     eyebrow: "WAS WIR ÜBERSETZEN",
     heading: "Spracharbeit, die angenommen werden muss.",
     ctaLabel: "Unsere Leistungen ansehen",
@@ -143,7 +143,7 @@ export const home = {
       },
       {
         marker: "03",
-        title: "Wirtschaft & Recht",
+        title: "Wirtschafts- und Rechtsdokumente",
         tags: ["Verträge", "Unternehmensunterlagen", "Compliance"],
       },
       {

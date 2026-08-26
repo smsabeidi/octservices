@@ -14,7 +14,7 @@ import type { InsightsArticle } from "../en/insights";
 /** Canonical order, matching the /insights listing. */
 const articles: InsightsArticle[] = [
   {
-    slug: "building-stronger-contracts-for-long-term-security",
+    slug: "what-makes-a-certified-translation-acceptable",
     title: "Wann eine beglaubigte Übersetzung angenommen wird",
     description:
       "Was eine empfangende Stelle bei einer beglaubigten Übersetzung prüft und wie ein Dokument vorbereitet wird, damit es beim ersten Mal angenommen wird.",
@@ -100,7 +100,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "resolving-disputes-with-clarity",
+    slug: "translating-academic-records-for-credential-evaluation",
     title: "Bildungsnachweise für die Zeugnisbewertung übersetzen",
     description:
       "Wie Notenspiegel, Diplome und Studienunterlagen für Zulassungsstellen und Bewertungsstellen übersetzt werden und wo die Übersetzung endet.",
@@ -173,7 +173,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "understanding-legal-protection",
+    slug: "preparing-documents-for-an-immigration-filing",
     title: "Unterlagen für einen Einwanderungsantrag vorbereiten",
     description:
       "Wie Personenstandsurkunden, Führungszeugnisse und Begleitschreiben übersetzt und bestätigt werden, damit ein Antrag angenommen wird.",
@@ -239,7 +239,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "modern-legal-services-today",
+    slug: "terminology-management-in-business-translation",
     title: "Terminologiepflege in langfristiger Wirtschaftsübersetzung",
     description:
       "Wie Glossare, Translation Memory und ein Styleguide die Terminologie in den Dokumenten eines Unternehmens über Jahre einheitlich halten.",

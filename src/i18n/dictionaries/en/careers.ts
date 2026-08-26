@@ -37,7 +37,7 @@ export type Job = {
 
 const jobs: Job[] = [
   {
-    slug: "legal-assistant",
+    slug: "project-manager",
     eyebrow: "JOIN US",
     title: "Project Manager",
     summary: "Coordinate translation projects from quote to delivery: scope, scheduling, linguist assignment, and client communication.",
@@ -123,7 +123,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "corporate-lawyer",
+    slug: "senior-translator",
     eyebrow: "JOIN US",
     title: "Senior Translator",
     summary: "Translate immigration, academic and commercial documents into your native language, and guide terminology for key accounts.",
@@ -208,7 +208,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "legal-associate",
+    slug: "quality-reviewer",
     eyebrow: "JOIN US",
     title: "Quality Reviewer",
     summary: "Check translations against the source for accuracy, completeness, terminology and format before they reach the client.",

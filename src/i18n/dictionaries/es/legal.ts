@@ -126,6 +126,7 @@ export const legal: LegalDict = {
     /** The paragraphs that open the body, above section 1. */
     intro: [
       "Global Language Solutions es propiedad de OCT Services, que la opera.",
+      "Global Language Solutions es una empresa de traducción e interpretación. No ejercemos la abogacía ni prestamos asesoramiento jurídico.",
       "En Global Language Solutions, los documentos que nos envía y las consultas que nos plantea se tratan con cuidado y de forma confidencial.",
       "Estas condiciones establecen la base sobre la que puede usar este sitio web y qué puede esperar cuando pide un presupuesto, envía documentos para traducir o contrata un intérprete. Léalas antes de ponerse en contacto con nosotros.",
     ],

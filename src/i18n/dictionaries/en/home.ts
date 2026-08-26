@@ -129,7 +129,7 @@ export const home = {
   },
 
   /** Section 06 — "WHAT WE TRANSLATE": four alternating project cards. */
-  practiceAreas: {
+  documentTypes: {
     eyebrow: "WHAT WE TRANSLATE",
     heading: "Language work that has to be accepted.",
     ctaLabel: "Explore our services",
@@ -146,7 +146,7 @@ export const home = {
       },
       {
         marker: "03",
-        title: "Business & Legal",
+        title: "Business & Legal Documents",
         tags: ["Contracts", "Corporate Records", "Compliance"],
       },
       {

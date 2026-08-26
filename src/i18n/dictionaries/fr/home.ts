@@ -129,7 +129,7 @@ export const home = {
   },
 
   /** Section 06 — "CE QUE NOUS TRADUISONS": four alternating project cards. */
-  practiceAreas: {
+  documentTypes: {
     eyebrow: "CE QUE NOUS TRADUISONS",
     heading: "Un travail linguistique qui doit être accepté.",
     ctaLabel: "Découvrir nos services",
@@ -146,7 +146,7 @@ export const home = {
       },
       {
         marker: "03",
-        title: "Entreprise & droit",
+        title: "Documents d’entreprise et juridiques",
         tags: ["Contrats", "Documents de société", "Conformité"],
       },
       {

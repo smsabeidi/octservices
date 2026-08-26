@@ -17,7 +17,7 @@ import type { InsightsArticle, InsightsDict } from "../en/insights";
  */
 const articles: InsightsArticle[] = [
   {
-    slug: "building-stronger-contracts-for-long-term-security",
+    slug: "what-makes-a-certified-translation-acceptable",
     title: "ما الذي يجعل الترجمة المعتمدة مقبولة",
     description:
       "ما الذي تتحقق منه الجهة المستلمة حين تصلها ترجمة معتمدة، وكيف يُعدّ المستند ليُقبل من المرة الأولى.",
@@ -103,7 +103,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "resolving-disputes-with-clarity",
+    slug: "translating-academic-records-for-credential-evaluation",
     title: "ترجمة السجلات الأكاديمية لتقييم المؤهلات",
     description:
       "كيف تُترجم كشوف الدرجات والشهادات وسجلات المقررات لمكاتب القبول وجهات تقييم المؤهلات، وأين تنتهي الترجمة.",
@@ -176,7 +176,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "understanding-legal-protection",
+    slug: "preparing-documents-for-an-immigration-filing",
     title: "إعداد المستندات لملف هجرة",
     description:
       "كيف تُترجم السجلات المدنية وشهادات الشرطة وخطابات الدعم وتُعتمد لملف لا بد أن يُقبل.",
@@ -242,7 +242,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "modern-legal-services-today",
+    slug: "terminology-management-in-business-translation",
     title: "إدارة المصطلحات في ترجمة الأعمال طويلة الأمد",
     description:
       "كيف تحافظ المسارد وذاكرة الترجمة ودليل الأسلوب على اتساق المصطلحات في مستندات الشركة عبر السنين.",

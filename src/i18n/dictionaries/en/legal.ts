@@ -155,6 +155,7 @@ export const legal = {
     /** The paragraphs that open the body, above section 1. */
     intro: [
       "Global Language Solutions is owned and operated by OCT Services.",
+      "Global Language Solutions is a translation and interpreting company. We do not practise law and we do not give legal advice.",
       "At Global Language Solutions, the documents you send us and the enquiries you make are handled with care and kept confidential.",
       "These terms set out the basis on which you may use this website, and what you can expect when you request a quotation, send documents for translation, or book an interpreter. Please read them before you contact us.",
     ],

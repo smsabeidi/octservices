@@ -19,7 +19,7 @@ import type { InsightsArticle, InsightsDict } from "../en/insights";
 /** Canonical order, matching the /insights listing. */
 const articles: InsightsArticle[] = [
   {
-    slug: "building-stronger-contracts-for-long-term-security",
+    slug: "what-makes-a-certified-translation-acceptable",
     title: "Ce qui rend une traduction certifiée acceptable",
     description:
       "Ce que vérifie un organisme destinataire lorsqu’une traduction est certifiée, et comment un document est préparé pour être accepté du premier coup.",
@@ -105,7 +105,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "resolving-disputes-with-clarity",
+    slug: "translating-academic-records-for-credential-evaluation",
     title: "Traduire des documents académiques pour l’évaluation des diplômes",
     description:
       "Comment relevés de notes, diplômes et descriptifs de cours sont traduits pour les services d’admission et les organismes d’évaluation, et où s’arrête la traduction.",
@@ -178,7 +178,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "understanding-legal-protection",
+    slug: "preparing-documents-for-an-immigration-filing",
     title: "Préparer les documents d’un dossier d’immigration",
     description:
       "Comment actes d’état civil, extraits de casier judiciaire et lettres justificatives sont traduits et certifiés pour un dossier qui doit être accepté.",
@@ -244,7 +244,7 @@ const articles: InsightsArticle[] = [
     ],
   },
   {
-    slug: "modern-legal-services-today",
+    slug: "terminology-management-in-business-translation",
     title: "La gestion terminologique dans la traduction d’entreprise au long cours",
     description:
       "Comment glossaires, mémoire de traduction et guide de style maintiennent la cohérence terminologique dans les documents d’une entreprise au fil des ans.",

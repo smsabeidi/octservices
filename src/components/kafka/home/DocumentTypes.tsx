@@ -2,8 +2,10 @@ import Image from "next/image";
 import type { Dictionary } from "@/i18n/dictionaries/en";
 
 /**
- * LEGAL MATTERS — cloned from kafka.framer.wiki home, section 06.
- * Source markup: framer-1fa8l6d ("Legal Matters") in shared-css-6ef7f0ce.css.
+ * DOCUMENT TYPES — cloned from kafka.framer.wiki home, section 06.
+ * Source markup: framer-1fa8l6d, which the source site called "Legal
+ * Matters" — kept as the provenance record; this build lists the document
+ * types the company translates, not practice areas.
  * Desktop >=1200 / tablet 810-1199 / phone <=809.
  *
  * Layout (per source CSS):
@@ -25,9 +27,9 @@ import type { Dictionary } from "@/i18n/dictionaries/en";
  *   Tablet/phone use the "S" variant: title/tags stack, left-aligned.
  */
 
-type PracticeArea = Dictionary["home"]["practiceAreas"]["items"][number];
+type DocumentType = Dictionary["home"]["documentTypes"]["items"][number];
 
-/** Row layout facts, positionally matched to home.practiceAreas.items. */
+/** Row layout facts, positionally matched to home.documentTypes.items. */
 type ProjectLayout = {
   img: string;
   /**
@@ -45,7 +47,7 @@ type ProjectLayout = {
 
 const PROJECT_LAYOUT: readonly ProjectLayout[] = [
   {
-    img: "/kafka/img/W5j9nq5fKAE7pC3koIiniWE8yP8.png",
+    img: "/img/documents-signing.png",
     yearSide: "end",
   },
   {
@@ -53,7 +55,7 @@ const PROJECT_LAYOUT: readonly ProjectLayout[] = [
     yearSide: "start",
   },
   {
-    img: "/kafka/img/nmXZOsPpIlQjIHmg5uwOA5NJcI.png",
+    img: "/img/business-meeting.png",
     yearSide: "end",
     yearTrailingBreak: true,
   },
@@ -90,7 +92,7 @@ function YearLabel({
   project,
   layout,
 }: {
-  project: PracticeArea;
+  project: DocumentType;
   layout: ProjectLayout;
 }) {
   // rows whose year trails the card are end-aligned on desktop/tablet, and
@@ -114,7 +116,7 @@ function YearLabel({
 }
 
 /** Project card — Framer component qOHMf ("L" desktop / "S" tablet+phone variants collapsed). */
-function ProjectCard({ project, img }: { project: PracticeArea; img: string }) {
+function ProjectCard({ project, img }: { project: DocumentType; img: string }) {
   return (
     <div className="z-[1] min-w-0 flex-[1_0_0px] max-[809px]:w-full max-[809px]:flex-none">
       <div className="flex w-full flex-col items-center gap-5">
@@ -148,11 +150,11 @@ function ProjectCard({ project, img }: { project: PracticeArea; img: string }) {
   );
 }
 
-export function LegalMatters({
+export function DocumentTypes({
   t,
   locale,
 }: {
-  t: Dictionary["home"]["practiceAreas"];
+  t: Dictionary["home"]["documentTypes"];
   locale: string;
 }) {
   return (

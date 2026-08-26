@@ -134,7 +134,7 @@ export const home: Translated<HomeDict> = {
   },
 
   /** Section 06 — "QUÉ TRADUCIMOS": four alternating project cards. */
-  practiceAreas: {
+  documentTypes: {
     eyebrow: "QUÉ TRADUCIMOS",
     heading: "Trabajo lingüístico que debe ser aceptado.",
     ctaLabel: "Ver nuestros servicios",
@@ -151,7 +151,7 @@ export const home: Translated<HomeDict> = {
       },
       {
         marker: "03",
-        title: "Empresa y derecho",
+        title: "Documentos empresariales y jurídicos",
         tags: ["Contratos", "Documentación societaria", "Cumplimiento"],
       },
       {

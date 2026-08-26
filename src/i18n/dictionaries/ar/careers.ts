@@ -10,7 +10,7 @@ import type { CareersDict, Job } from "../en/careers";
  */
 const jobs: Job[] = [
   {
-    slug: "legal-assistant",
+    slug: "project-manager",
     eyebrow: "انضم إلينا",
     title: "مدير مشاريع",
     summary: "تنسيق مشاريع الترجمة من عرض السعر إلى التسليم: النطاق والجدولة وتكليف اللغويين والتواصل مع العملاء.",
@@ -96,7 +96,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "corporate-lawyer",
+    slug: "senior-translator",
     eyebrow: "انضم إلينا",
     title: "مترجم أول",
     summary: "ترجمة مستندات الهجرة والدراسة والأعمال إلى لغتك الأم، وتوجيه المصطلحات في الحسابات الرئيسية.",
@@ -181,7 +181,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "legal-associate",
+    slug: "quality-reviewer",
     eyebrow: "انضم إلينا",
     title: "مراجع جودة",
     summary: "مقارنة الترجمات بالمصدر من حيث الدقة والاكتمال والمصطلحات والتنسيق قبل وصولها إلى العميل.",

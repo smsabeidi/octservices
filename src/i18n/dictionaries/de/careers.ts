@@ -11,7 +11,7 @@ import type { Job } from "../en/careers";
 
 const jobs: Job[] = [
   {
-    slug: "legal-assistant",
+    slug: "project-manager",
     eyebrow: "OFFENE STELLE",
     title: "Projektmanager",
     summary: "Übersetzungsprojekte vom Angebot bis zur Lieferung koordinieren: Umfang, Terminplanung, Zuweisung der Übersetzer und Kundenkommunikation.",
@@ -97,7 +97,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "corporate-lawyer",
+    slug: "senior-translator",
     eyebrow: "OFFENE STELLE",
     title: "Senior-Übersetzer",
     summary: "Unterlagen aus Einwanderung, Bildung und Wirtschaft in Ihre Muttersprache übersetzen und die Terminologie für Schlüsselkunden steuern.",
@@ -182,7 +182,7 @@ const jobs: Job[] = [
     },
   },
   {
-    slug: "legal-associate",
+    slug: "quality-reviewer",
     eyebrow: "OFFENE STELLE",
     title: "Qualitätsprüfer",
     summary: "Übersetzungen vor der Lieferung gegen das Original auf Richtigkeit, Vollständigkeit, Terminologie und Format prüfen.",

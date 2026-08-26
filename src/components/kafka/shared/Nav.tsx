@@ -93,7 +93,14 @@ export function Nav({
   tone?: "light" | "dark";
 }) {
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
+  // The phone menu is tied to the route it was opened on, so any navigation —
+  // a link, or the browser's back button — closes it as a consequence of the
+  // pathname changing. Holding a plain boolean and clearing it from an effect
+  // on `pathname` does the same thing, but as a second render pass, and trips
+  // react-hooks/set-state-in-effect.
+  const [openedOn, setOpenedOn] = useState<string | null>(null);
+  const open = openedOn === pathname;
+  const setOpen = (next: boolean) => setOpenedOn(next ? pathname : null);
 
   const home = localePath(routes.home, locale);
 
@@ -109,10 +116,6 @@ export function Nav({
       document.body.style.overflow = "";
     };
   }, [open]);
-
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
 
   const ink = transparent ? "text-white" : "text-ink";
   const switcherTone = transparent ? "dark" : "light";
@@ -176,7 +179,7 @@ export function Nav({
             type="button"
             aria-label={open ? t.menu.close : t.menu.open}
             aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
+            onClick={() => setOpen(!open)}
             className={`ms-auto hidden h-10 w-10 flex-col items-center justify-center gap-[5px] max-[809px]:flex ${ink}`}
           >
             <span
