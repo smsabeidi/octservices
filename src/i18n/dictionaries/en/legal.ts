@@ -143,7 +143,7 @@ export const legal = {
   terms: {
     /** Page-level <head> copy (was the static `metadata` export on the page). */
     meta: {
-      title: "Terms of Use — OCT Services",
+      title: "Terms of Use — Global Language Solutions",
     },
 
     hero: {
@@ -152,9 +152,10 @@ export const legal = {
       lastUpdated: "Last updated: August 2026",
     },
 
-    /** The two paragraphs that open the body, above section 1. */
+    /** The paragraphs that open the body, above section 1. */
     intro: [
-      "At OCT Services, the documents you send us and the enquiries you make are handled with care and kept confidential.",
+      "Global Language Solutions is owned and operated by OCT Services.",
+      "At Global Language Solutions, the documents you send us and the enquiries you make are handled with care and kept confidential.",
       "These terms set out the basis on which you may use this website, and what you can expect when you request a quotation, send documents for translation, or book an interpreter. Please read them before you contact us.",
     ],
 
@@ -164,7 +165,7 @@ export const legal = {
   /** /404 and the not-found boundary. */
   notFound: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
     },
     heading: "404 PAGE NOT FOUND",
     lead: "We could not find this page in any language.",

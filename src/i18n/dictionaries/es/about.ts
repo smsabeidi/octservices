@@ -14,9 +14,9 @@ import type { AboutDict } from "../en/about";
 export const about: AboutDict = {
   /** Page-level <head> copy. */
   meta: {
-    title: "OCT Services",
+    title: "Global Language Solutions",
     description:
-      "Las personas, el proceso y el estándar que hay detrás de cada traducción de OCT Services.\n Vea cómo pasa un documento del presupuesto al certificado firmado.",
+      "Las personas, el proceso y el estándar que hay detrás de cada traducción de Global Language Solutions.\n Vea cómo pasa un documento del presupuesto al certificado firmado.",
   },
 
   hero: {
@@ -31,6 +31,10 @@ export const about: AboutDict = {
     headingLead: "Nuestra misión es ",
     headingRest:
       "eliminar el idioma como obstáculo, para que cada trámite, solicitud y acuerdo se entienda exactamente como está escrito.",
+    /** Ownership line under the mission statement: the company behind the
+        brand, disclosed here and again in the terms. */
+    ownership:
+      "Global Language Solutions es propiedad de OCT Services, que la opera.",
   },
 
   founder: {
@@ -146,7 +150,7 @@ export const about: AboutDict = {
     eyebrow: "EMPLEO",
     heading: "Únase al equipo",
     intro:
-      "Únase a OCT Services, un equipo de lingüistas y coordinadores que trata documentos que personas e instituciones están esperando.",
+      "Únase a Global Language Solutions, un equipo de lingüistas y coordinadores que trata documentos que personas e instituciones están esperando.",
     /** Shared by every opening in the list. */
     employmentType: "Tiempo completo",
     location: "Remoto",

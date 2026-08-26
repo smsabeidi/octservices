@@ -7,9 +7,9 @@ import type { MetaDict } from "../en/meta";
  * script in every language.
  */
 export const meta: MetaDict = {
-  brand: "OCT Services",
-  wordmark: "OCT",
-  title: "OCT Services",
+  brand: "Global Language Solutions",
+  wordmark: "GLS",
+  title: "Global Language Solutions",
   description:
     "ترجمة معتمدة وترجمة شفوية لأغراض الهجرة والتعليم والأعمال. تُراجَع كل ترجمة معتمدة مقابل نصها المصدر على يد لغوي ثانٍ.",
 };

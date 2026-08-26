@@ -109,7 +109,7 @@ export const legal = {
   terms: {
     /** Page-level <head> copy. */
     meta: {
-      title: "Nutzungsbedingungen — OCT Services",
+      title: "Nutzungsbedingungen — Global Language Solutions",
     },
 
     hero: {
@@ -118,9 +118,10 @@ export const legal = {
       lastUpdated: "Zuletzt aktualisiert: August 2026",
     },
 
-    /** The two paragraphs that open the body, above section 1. */
+    /** The paragraphs that open the body, above section 1. */
     intro: [
-      "Bei OCT Services werden die Unterlagen, die Sie uns senden, und Ihre Anfragen sorgfältig und vertraulich behandelt.",
+      "Global Language Solutions gehört OCT Services und wird von OCT Services betrieben.",
+      "Bei Global Language Solutions werden die Unterlagen, die Sie uns senden, und Ihre Anfragen sorgfältig und vertraulich behandelt.",
       "Diese Bedingungen regeln, auf welcher Grundlage Sie diese Website nutzen dürfen und was Sie erwarten können, wenn Sie ein Angebot anfordern, Unterlagen zur Übersetzung senden oder einen Dolmetscher buchen. Bitte lesen Sie sie, bevor Sie uns kontaktieren.",
     ],
 
@@ -130,7 +131,7 @@ export const legal = {
   /** /404 and the not-found boundary. */
   notFound: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
     },
     heading: "404 SEITE NICHT GEFUNDEN",
     lead: "Diese Seite konnten wir in keiner Sprache finden.",

@@ -91,8 +91,8 @@ const jobs: Job[] = [
       { label: "Tipo:", value: "Tiempo completo" },
     ],
     seo: {
-      title: "Gestor de proyectos · OCT Services",
-      description: "Coordine proyectos de traducción en OCT Services, del presupuesto y el alcance a la asignación de lingüistas y la entrega certificada.",
+      title: "Gestor de proyectos · Global Language Solutions",
+      description: "Coordine proyectos de traducción en Global Language Solutions, del presupuesto y el alcance a la asignación de lingüistas y la entrega certificada.",
       ogImage: "/kafka/img/dW7lQMtwln30YCc5d986Pg7YGE.png",
     },
   },
@@ -176,8 +176,8 @@ const jobs: Job[] = [
       { label: "Tipo:", value: "Tiempo completo" },
     ],
     seo: {
-      title: "Traductor sénior · OCT Services",
-      description: "Un puesto de traductor sénior en OCT Services, traduciendo a su lengua materna expedientes de los que dependen los clientes.",
+      title: "Traductor sénior · Global Language Solutions",
+      description: "Un puesto de traductor sénior en Global Language Solutions, traduciendo a su lengua materna expedientes de los que dependen los clientes.",
       ogImage: "/kafka/img/vDyRaUb0I8ybD7E9tD2v84BoLNU.png",
     },
   },
@@ -255,8 +255,8 @@ const jobs: Job[] = [
       { label: "Tipo:", value: "Tiempo completo" },
     ],
     seo: {
-      title: "Revisor de calidad · OCT Services",
-      description: "Realice la revisión independiente de cada traducción certificada que entrega OCT Services, cotejando cada expediente con su original.",
+      title: "Revisor de calidad · Global Language Solutions",
+      description: "Realice la revisión independiente de cada traducción certificada que entrega Global Language Solutions, cotejando cada expediente con su original.",
       ogImage: "/kafka/img/5B0yTzRf3jvC8kbEfBqbcccLFBw.png",
     },
   },
@@ -265,7 +265,7 @@ const jobs: Job[] = [
 export const careers: CareersDict = {
   /** Page metadata for a /careers/<slug> that matches no opening. */
   meta: {
-    fallbackTitle: "Empleo · OCT Services",
+    fallbackTitle: "Empleo · Global Language Solutions",
   },
   /** Static labels of the job page template — the same on all three pages. */
   jobPage: {
@@ -276,7 +276,7 @@ export const careers: CareersDict = {
   joinUs: {
     eyebrow: "EMPLEO",
     title: "Únase al equipo",
-    description: "Únase a OCT Services, un equipo de lingüistas y coordinadores que trata documentos que personas e instituciones están esperando.",
+    description: "Únase a Global Language Solutions, un equipo de lingüistas y coordinadores que trata documentos que personas e instituciones están esperando.",
     /** Row link through to one of the other openings. */
     viewJob: "Ver puesto",
   },

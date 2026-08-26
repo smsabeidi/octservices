@@ -13,9 +13,9 @@
  */
 export const contact = {
   meta: {
-    title: "OCT Services",
+    title: "Global Language Solutions",
     description:
-      "Envoyez à OCT Services vos documents, vos langues et votre délai\u00A0: nous vous répondrons par écrit avec un périmètre et une date fermes.",
+      "Envoyez à Global Language Solutions vos documents, vos langues et votre délai\u00A0: nous vous répondrons par écrit avec un périmètre et une date fermes.",
   },
 
   hero: {
@@ -28,7 +28,7 @@ export const contact = {
     talk: {
       label: "Nous joindre",
       email: "info@octservices.com",
-      phone: "+45 121 231 289",
+      phone: "+1 332 400 6423",
     },
     hours: {
       label: "Horaires",
@@ -37,8 +37,8 @@ export const contact = {
     },
     address: {
       label: "Adresse",
-      line1: "ul. Św Jacka 21 ",
-      line2: "38-102 Warszawa",
+      line1: "6137 Lincolnia Rd",
+      line2: "Alexandria, VA 22312",
     },
   },
 

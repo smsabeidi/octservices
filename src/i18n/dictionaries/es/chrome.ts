@@ -8,7 +8,7 @@ import type { ChromeDict } from "../en/chrome";
  */
 export const chrome: ChromeDict = {
   /** Accessible name on the wordmark links in the nav and the footer. */
-  logoLabel: "OCT Services",
+  logoLabel: "Global Language Solutions",
 
   /** Strapline carried over from the previous build. No page renders it today. */
   tagline: "Traducción certificada, interpretación y localización.",
@@ -46,9 +46,8 @@ export const chrome: ChromeDict = {
 
     address: {
       label: "Dirección",
-      // An address, not copy: kept byte identical to the English source,
-      // trailing space included.
-      lines: ["100 Example Street ", "Example City 00000"],
+      // An address, not copy: identical in every language.
+      lines: ["6137 Lincolnia Rd", "Alexandria, VA 22312"],
     },
 
     workingHours: {
@@ -60,6 +59,6 @@ export const chrome: ChromeDict = {
     menuLabel: "Menú",
 
     terms: "Condiciones de uso",
-    copyright: "© 2026 OCT Services",
+    copyright: "© 2026 Global Language Solutions",
   },
 };

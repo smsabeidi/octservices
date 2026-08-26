@@ -114,7 +114,7 @@ export const legal: LegalDict = {
   terms: {
     /** Page-level <head> copy. */
     meta: {
-      title: "Condiciones de uso — OCT Services",
+      title: "Condiciones de uso — Global Language Solutions",
     },
 
     hero: {
@@ -123,9 +123,10 @@ export const legal: LegalDict = {
       lastUpdated: "Actualizado: agosto de 2026",
     },
 
-    /** The two paragraphs that open the body, above section 1. */
+    /** The paragraphs that open the body, above section 1. */
     intro: [
-      "En OCT Services, los documentos que nos envía y las consultas que nos plantea se tratan con cuidado y de forma confidencial.",
+      "Global Language Solutions es propiedad de OCT Services, que la opera.",
+      "En Global Language Solutions, los documentos que nos envía y las consultas que nos plantea se tratan con cuidado y de forma confidencial.",
       "Estas condiciones establecen la base sobre la que puede usar este sitio web y qué puede esperar cuando pide un presupuesto, envía documentos para traducir o contrata un intérprete. Léalas antes de ponerse en contacto con nosotros.",
     ],
 
@@ -135,7 +136,7 @@ export const legal: LegalDict = {
   /** /404 and the not-found boundary. */
   notFound: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
     },
     heading: "404 PÁGINA NO ENCONTRADA",
     lead: "No hemos encontrado esta página en ningún idioma.",

@@ -35,12 +35,12 @@ export const home: Translated<HomeDict> = {
 
   /**
    * Section 02 — about statement. The three runs concatenate into one
-   * sentence: «توفّر OCT Services ترجمة معتمدة لأغراض الهجرة والتعليم
+   * sentence: «توفّر Global Language Solutions ترجمة معتمدة لأغراض الهجرة والتعليم
    * والأعمال.» then, after the break, the closing sentence.
    */
   about: {
     eyebrow: "من نحن",
-    headingLead: "توفّر OCT Services ترجمة معتمدة ",
+    headingLead: "توفّر Global Language Solutions ترجمة معتمدة ",
     headingFaded: "لأغراض الهجرة والتعليم والأعمال. \u2028\u2028",
     headingFadedClosing: "ويُجهَّز كل ملف للجهة أو المؤسسة التي عليها قبوله.",
   },

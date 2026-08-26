@@ -108,7 +108,7 @@ export const legal: LegalDict = {
   /** /terms-and-conditions */
   terms: {
     meta: {
-      title: "شروط الاستخدام — OCT Services",
+      title: "شروط الاستخدام — Global Language Solutions",
     },
 
     hero: {
@@ -118,7 +118,8 @@ export const legal: LegalDict = {
     },
 
     intro: [
-      "في OCT Services، تُعامَل المستندات التي ترسلها إلينا والاستفسارات التي تقدمها بعناية وتُحفظ سريتها.",
+      "Global Language Solutions مملوكة لشركة OCT Services وتُدار من قِبلها.",
+      "في Global Language Solutions، تُعامَل المستندات التي ترسلها إلينا والاستفسارات التي تقدمها بعناية وتُحفظ سريتها.",
       "وتحدد هذه الشروط الأساس الذي يمكنك بموجبه استخدام هذا الموقع، وما يمكنك توقعه عند طلب عرض سعر أو إرسال مستندات للترجمة أو حجز مترجم شفوي. يُرجى قراءتها قبل التواصل معنا.",
     ],
 
@@ -128,7 +129,7 @@ export const legal: LegalDict = {
   /** /404 and the not-found boundary. */
   notFound: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
     },
     heading: "404 الصفحة غير موجودة",
     lead: "لم نتمكن من العثور على هذه الصفحة بأي لغة.",

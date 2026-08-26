@@ -35,7 +35,7 @@ export const home = {
    */
   about: {
     eyebrow: "À PROPOS",
-    headingLead: "OCT Services assure la traduction ",
+    headingLead: "Global Language Solutions assure la traduction ",
     headingFaded: "certifiée pour l’immigration, les études et l’entreprise. \u2028\u2028",
     headingFadedClosing:
       "Chaque dossier est préparé pour l’organisme ou l’institution qui doit l’accepter.",

@@ -65,13 +65,13 @@ export async function generateMetadata({
       locale: htmlLang[locale],
       title,
       description,
-      images: ["/kafka/og/0NSo9g2ncJrgLY2gFa4YbZuJA.png"],
+      images: ["/logo/og-gls.png"],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["/kafka/og/0NSo9g2ncJrgLY2gFa4YbZuJA.png"],
+      images: ["/logo/og-gls.png"],
     },
   };
 }

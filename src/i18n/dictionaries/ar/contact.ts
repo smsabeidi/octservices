@@ -11,9 +11,9 @@ import type { Translated } from "./translated";
  */
 export const contact: Translated<ContactDict> = {
   meta: {
-    title: "OCT Services",
+    title: "Global Language Solutions",
     description:
-      "أرسل إلى OCT Services مستنداتك ولغاتك وموعدك النهائي، وسنعود إليك بنطاق وموعد ثابتين كتابةً.",
+      "أرسل إلى Global Language Solutions مستنداتك ولغاتك وموعدك النهائي، وسنعود إليك بنطاق وموعد ثابتين كتابةً.",
   },
 
   hero: {
@@ -25,7 +25,7 @@ export const contact: Translated<ContactDict> = {
     talk: {
       label: "تحدّث إلينا",
       email: "info@octservices.com",
-      phone: "+45 121 231 289",
+      phone: "+1 332 400 6423",
     },
     hours: {
       label: "ساعات العمل",
@@ -34,8 +34,8 @@ export const contact: Translated<ContactDict> = {
     },
     address: {
       label: "العنوان",
-      line1: "ul. Św Jacka 21 ",
-      line2: "38-102 Warszawa",
+      line1: "6137 Lincolnia Rd",
+      line2: "Alexandria, VA 22312",
     },
   },
 

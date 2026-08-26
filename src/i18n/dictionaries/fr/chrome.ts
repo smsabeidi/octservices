@@ -9,7 +9,7 @@ import type { ChromeDict } from "../en/chrome";
  * included.
  */
 export const chrome: ChromeDict = {
-  logoLabel: "OCT Services",
+  logoLabel: "Global Language Solutions",
 
   tagline: "Traduction certifiée, interprétation et localisation.",
 
@@ -42,7 +42,7 @@ export const chrome: ChromeDict = {
 
     address: {
       label: "Adresse",
-      lines: ["100 Example Street ", "Example City 00000"],
+      lines: ["6137 Lincolnia Rd", "Alexandria, VA 22312"],
     },
 
     workingHours: {
@@ -53,6 +53,6 @@ export const chrome: ChromeDict = {
     menuLabel: "Menu",
 
     terms: "Conditions d’utilisation",
-    copyright: "© 2026 OCT Services",
+    copyright: "© 2026 Global Language Solutions",
   },
 };

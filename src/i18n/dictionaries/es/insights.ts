@@ -21,7 +21,7 @@ const articles: InsightsArticle[] = [
     description:
       "Qué comprueba un organismo receptor cuando una traducción va certificada y cómo se prepara un documento para que se acepte a la primera.",
     meta: {
-      title: "Qué hace aceptable una traducción certificada · OCT Services",
+      title: "Qué hace aceptable una traducción certificada · Global Language Solutions",
       description:
         "Por qué la certificación es la parte menor del trabajo y qué comprueba en realidad quien recibe un documento traducido.",
     },
@@ -107,7 +107,7 @@ const articles: InsightsArticle[] = [
     description:
       "Cómo se traducen certificados de notas, diplomas y programas para las oficinas de admisiones y los evaluadores de credenciales, y dónde acaba la traducción.",
     meta: {
-      title: "Traducir expedientes académicos para la evaluación de credenciales · OCT Services",
+      title: "Traducir expedientes académicos para la evaluación de credenciales · Global Language Solutions",
       description:
         "Los evaluadores de credenciales necesitan una traducción certificada al inglés antes de valorar un expediente. Dónde acaba la traducción y empieza la evaluación.",
     },
@@ -122,7 +122,7 @@ const articles: InsightsArticle[] = [
       { type: "h2", text: "Dos pasos, no uno" },
       { type: "p", text: "Los solicitantes suelen dar por hecho que la evaluación de credenciales incluye la traducción. No es así. Evaluadores como World Education Services y Educational Credential Evaluators, ambos miembros de NACES, exigen traducciones certificadas al inglés de los expedientes en lengua extranjera antes de empezar a trabajar." },
       { type: "p", text: "Los dos pasos responden a preguntas distintas. Una traducción dice lo que afirma un documento, íntegramente y en inglés. Una evaluación dice cuánto vale ese documento en el sistema educativo del país receptor: a qué titulación corresponde, cómo se convierten las calificaciones y si la institución emisora está reconocida. Uno es un servicio lingüístico y la otra es una valoración." },
-      { type: "p", text: "OCT Services realiza la traducción. No evaluamos credenciales ni emitimos declaraciones de equivalencia. Saber cuál de las dos se está contratando desde el principio suele ahorrar una ronda de correos y una semana de espera." },
+      { type: "p", text: "Global Language Solutions realiza la traducción. No evaluamos credenciales ni emitimos declaraciones de equivalencia. Saber cuál de las dos se está contratando desde el principio suele ahorrar una ronda de correos y una semana de espera." },
       { type: "h2", text: "Qué necesita ver un evaluador" },
       { type: "p", text: "Los evaluadores publican sus requisitos documentales, y esos requisitos son concretos." },
       { type: "p", text: "La mayoría pide una traducción al inglés completa y literal, palabra por palabra, de cada documento académico, preparada por un traductor cualificado y no por el solicitante, un familiar o el personal administrativo de la propia institución." },
@@ -180,7 +180,7 @@ const articles: InsightsArticle[] = [
     description:
       "Cómo se traducen y certifican las actas civiles, los certificados de antecedentes y las cartas de apoyo para un trámite que debe ser aceptado.",
     meta: {
-      title: "Preparar documentos para un trámite migratorio · OCT Services",
+      title: "Preparar documentos para un trámite migratorio · Global Language Solutions",
       description:
         "Actas civiles, certificados de antecedentes y declaraciones juradas, preparados y certificados para que un trámite migratorio no vuelva pidiendo más pruebas.",
     },
@@ -246,7 +246,7 @@ const articles: InsightsArticle[] = [
     description:
       "Cómo el glosario, la memoria de traducción y la guía de estilo mantienen coherente la terminología de una empresa a lo largo de los años.",
     meta: {
-      title: "Gestión terminológica en la traducción empresarial a largo plazo · OCT Services",
+      title: "Gestión terminológica en la traducción empresarial a largo plazo · Global Language Solutions",
       description:
         "Qué gana una empresa al fijar su terminología una sola vez y mantener el registro al día en cada documento que viene después.",
     },
@@ -307,7 +307,7 @@ export const insights: InsightsDict = {
   /** /insights — the listing page. */
   index: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
       description:
         "Textos prácticos sobre traducción certificada, expedientes académicos, trámites migratorios y terminología, de los lingüistas que los preparan.",
     },
@@ -323,7 +323,7 @@ export const insights: InsightsDict = {
   /** /insights/[slug] — the furniture around an article. */
   article: {
     /** <title> used when a slug matches no article. */
-    metaTitleFallback: "Perspectiva · OCT Services",
+    metaTitleFallback: "Perspectiva · Global Language Solutions",
     related: {
       eyebrow: "PERSPECTIVAS",
       heading: "Vea nuestras últimas perspectivas",

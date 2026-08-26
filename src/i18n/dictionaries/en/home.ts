@@ -35,7 +35,7 @@ export const home = {
    */
   about: {
     eyebrow: "ABOUT US",
-    headingLead: "OCT Services provides certified ",
+    headingLead: "Global Language Solutions provides certified ",
     headingFaded: "translation for immigration, education and business. \u2028\u2028",
     headingFadedClosing:
       "Every file is prepared for the office or institution that has to accept it.",

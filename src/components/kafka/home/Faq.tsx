@@ -10,7 +10,7 @@ import type { Dictionary } from "@/i18n/dictionaries/en";
  * in the SSR markup (closed accordion) and came from the RCj_GmkAF/dSti5MRjt
  * props of the framer-x60c8b "Question" instances in the site's own page module
  * (framerusercontent.com/sites/397zzfLIA2AaskarX4p7nA/cS2HE11ha….CHHB2k4Y.mjs).
- * Copy is OCT Services'; the five item structure and every class are unchanged.
+ * Copy is Global Language Solutions'; the five item structure and every class are unchanged.
  * Each item toggles independently: the parent (framer-p32pd2) keeps no state,
  * each Question holds its own Question/Answer variant, so several can be open.
  */

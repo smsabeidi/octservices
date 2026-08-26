@@ -91,8 +91,8 @@ const jobs: Job[] = [
       { label: "Art:", value: "Vollzeit" },
     ],
     seo: {
-      title: "Projektmanager · OCT Services",
-      description: "Übersetzungsprojekte bei OCT Services koordinieren, vom Angebot über die Zuweisung der Übersetzer bis zur bestätigten Lieferung.",
+      title: "Projektmanager · Global Language Solutions",
+      description: "Übersetzungsprojekte bei Global Language Solutions koordinieren, vom Angebot über die Zuweisung der Übersetzer bis zur bestätigten Lieferung.",
       ogImage: "/kafka/img/dW7lQMtwln30YCc5d986Pg7YGE.png",
     },
   },
@@ -176,8 +176,8 @@ const jobs: Job[] = [
       { label: "Art:", value: "Vollzeit" },
     ],
     seo: {
-      title: "Senior-Übersetzer · OCT Services",
-      description: "Eine Senior-Übersetzerstelle bei OCT Services: Arbeit in Ihre Muttersprache an Unterlagen, auf die Kunden angewiesen sind.",
+      title: "Senior-Übersetzer · Global Language Solutions",
+      description: "Eine Senior-Übersetzerstelle bei Global Language Solutions: Arbeit in Ihre Muttersprache an Unterlagen, auf die Kunden angewiesen sind.",
       ogImage: "/kafka/img/vDyRaUb0I8ybD7E9tD2v84BoLNU.png",
     },
   },
@@ -255,8 +255,8 @@ const jobs: Job[] = [
       { label: "Art:", value: "Vollzeit" },
     ],
     seo: {
-      title: "Qualitätsprüfer · OCT Services",
-      description: "Die unabhängige Revision jeder beglaubigten Übersetzung von OCT Services durchführen und jede Datei mit ihrem Original abgleichen.",
+      title: "Qualitätsprüfer · Global Language Solutions",
+      description: "Die unabhängige Revision jeder beglaubigten Übersetzung von Global Language Solutions durchführen und jede Datei mit ihrem Original abgleichen.",
       ogImage: "/kafka/img/5B0yTzRf3jvC8kbEfBqbcccLFBw.png",
     },
   },
@@ -265,7 +265,7 @@ const jobs: Job[] = [
 export const careers = {
   /** Page metadata for a /careers/<slug> that matches no opening. */
   meta: {
-    fallbackTitle: "Karriere · OCT Services",
+    fallbackTitle: "Karriere · Global Language Solutions",
   },
   /** Static labels of the job page template — the same on all three pages. */
   jobPage: {
@@ -276,7 +276,7 @@ export const careers = {
   joinUs: {
     eyebrow: "KARRIERE",
     title: "Kommen Sie zu uns",
-    description: "Kommen Sie zu OCT Services, einem Team aus Übersetzern und Koordinatoren, das Unterlagen bearbeitet, auf die Menschen und Behörden warten.",
+    description: "Kommen Sie zu Global Language Solutions, einem Team aus Übersetzern und Koordinatoren, das Unterlagen bearbeitet, auf die Menschen und Behörden warten.",
     /** Row link through to one of the other openings. */
     viewJob: "Stelle ansehen",
   },

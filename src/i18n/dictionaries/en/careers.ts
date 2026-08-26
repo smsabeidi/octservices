@@ -117,8 +117,8 @@ const jobs: Job[] = [
       { label: "Type:", value: "Full time" },
     ],
     seo: {
-      title: "Project Manager · OCT Services",
-      description: "Coordinate translation projects at OCT Services, from quote and scope through linguist assignment to certified delivery.",
+      title: "Project Manager · Global Language Solutions",
+      description: "Coordinate translation projects at Global Language Solutions, from quote and scope through linguist assignment to certified delivery.",
       ogImage: "/kafka/img/dW7lQMtwln30YCc5d986Pg7YGE.png",
     },
   },
@@ -202,8 +202,8 @@ const jobs: Job[] = [
       { label: "Type:", value: "Full time" },
     ],
     seo: {
-      title: "Senior Translator · OCT Services",
-      description: "A senior translator role at OCT Services, working into your native language on files that clients depend on.",
+      title: "Senior Translator · Global Language Solutions",
+      description: "A senior translator role at Global Language Solutions, working into your native language on files that clients depend on.",
       ogImage: "/kafka/img/vDyRaUb0I8ybD7E9tD2v84BoLNU.png",
     },
   },
@@ -281,8 +281,8 @@ const jobs: Job[] = [
       { label: "Type:", value: "Full time" },
     ],
     seo: {
-      title: "Quality Reviewer · OCT Services",
-      description: "Carry out the independent revision on every certified translation OCT Services delivers, checking each file against its source.",
+      title: "Quality Reviewer · Global Language Solutions",
+      description: "Carry out the independent revision on every certified translation Global Language Solutions delivers, checking each file against its source.",
       ogImage: "/kafka/img/5B0yTzRf3jvC8kbEfBqbcccLFBw.png",
     },
   },
@@ -291,7 +291,7 @@ const jobs: Job[] = [
 export const careers = {
   /** Page metadata for a /careers/<slug> that matches no opening. */
   meta: {
-    fallbackTitle: "Careers · OCT Services",
+    fallbackTitle: "Careers · Global Language Solutions",
   },
   /** Static labels of the job page template — the same on all three pages. */
   jobPage: {
@@ -302,7 +302,7 @@ export const careers = {
   joinUs: {
     eyebrow: "CAREER",
     title: "Join us",
-    description: "Join OCT Services, a team of linguists and coordinators handling documents that people and institutions are waiting on.",
+    description: "Join Global Language Solutions, a team of linguists and coordinators handling documents that people and institutions are waiting on.",
     /** Row link through to one of the other openings. */
     viewJob: "View job",
   },

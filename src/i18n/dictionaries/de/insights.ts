@@ -19,7 +19,7 @@ const articles: InsightsArticle[] = [
     description:
       "Was eine empfangende Stelle bei einer beglaubigten Übersetzung prüft und wie ein Dokument vorbereitet wird, damit es beim ersten Mal angenommen wird.",
     meta: {
-      title: "Wann eine beglaubigte Übersetzung angenommen wird · OCT Services",
+      title: "Wann eine beglaubigte Übersetzung angenommen wird · Global Language Solutions",
       description:
         "Warum die Bestätigung der kleinste Teil der Arbeit ist und worauf ein Prüfer tatsächlich achtet, wenn eine übersetzte Urkunde bei ihm eintrifft.",
     },
@@ -105,7 +105,7 @@ const articles: InsightsArticle[] = [
     description:
       "Wie Notenspiegel, Diplome und Studienunterlagen für Zulassungsstellen und Bewertungsstellen übersetzt werden und wo die Übersetzung endet.",
     meta: {
-      title: "Bildungsnachweise für die Zeugnisbewertung übersetzen · OCT Services",
+      title: "Bildungsnachweise für die Zeugnisbewertung übersetzen · Global Language Solutions",
       description:
         "Bewertungsstellen brauchen eine beglaubigte englische Übersetzung, bevor sie einen Notenspiegel bewerten können. Wo Übersetzung endet und Bewertung beginnt.",
     },
@@ -120,7 +120,7 @@ const articles: InsightsArticle[] = [
       { type: "h2", text: "Zwei Schritte, nicht einer" },
       { type: "p", text: "Antragsteller nehmen oft an, eine Zeugnisbewertung schließe die Übersetzung ein. Das tut sie nicht. Bewertungsstellen wie World Education Services und Educational Credential Evaluators, beide NACES-Mitglieder, verlangen beglaubigte englische Übersetzungen fremdsprachiger Unterlagen, bevor sie mit der Arbeit beginnen." },
       { type: "p", text: "Die beiden Schritte beantworten verschiedene Fragen. Eine Übersetzung sagt, was ein Dokument aussagt, vollständig und auf Englisch. Eine Bewertung sagt, was dieses Dokument im Bildungssystem des Ziellandes wert ist: welchem Abschluss es entspricht, wie die Noten umzurechnen sind und ob die ausstellende Einrichtung anerkannt ist. Das eine ist eine Sprachdienstleistung, das andere eine Beurteilung." },
-      { type: "p", text: "OCT Services liefert die Übersetzung. Wir bewerten keine Abschlüsse und stellen keine Gleichwertigkeitsbescheinigungen aus. Von Anfang an zu wissen, welche der beiden Leistungen man kauft, erspart meist einen Briefwechsel und eine Woche Wartezeit." },
+      { type: "p", text: "Global Language Solutions liefert die Übersetzung. Wir bewerten keine Abschlüsse und stellen keine Gleichwertigkeitsbescheinigungen aus. Von Anfang an zu wissen, welche der beiden Leistungen man kauft, erspart meist einen Briefwechsel und eine Woche Wartezeit." },
       { type: "h2", text: "Was eine Bewertungsstelle sehen muss" },
       { type: "p", text: "Bewertungsstellen veröffentlichen ihre Dokumentenanforderungen, und diese Anforderungen sind genau." },
       { type: "p", text: "Die meisten verlangen eine vollständige, wörtliche englische Übersetzung jedes Bildungsdokuments, erstellt von einem qualifizierten Übersetzer und nicht vom Antragsteller, einem Angehörigen oder dem Sekretariat der Einrichtung." },
@@ -178,7 +178,7 @@ const articles: InsightsArticle[] = [
     description:
       "Wie Personenstandsurkunden, Führungszeugnisse und Begleitschreiben übersetzt und bestätigt werden, damit ein Antrag angenommen wird.",
     meta: {
-      title: "Unterlagen für einen Einwanderungsantrag vorbereiten · OCT Services",
+      title: "Unterlagen für einen Einwanderungsantrag vorbereiten · Global Language Solutions",
       description:
         "Personenstandsurkunden, Führungszeugnisse und eidesstattliche Versicherungen, so vorbereitet und bestätigt, dass ein Einwanderungsantrag nicht zurückkommt.",
     },
@@ -244,7 +244,7 @@ const articles: InsightsArticle[] = [
     description:
       "Wie Glossare, Translation Memory und ein Styleguide die Terminologie in den Dokumenten eines Unternehmens über Jahre einheitlich halten.",
     meta: {
-      title: "Terminologiepflege in langfristiger Wirtschaftsübersetzung · OCT Services",
+      title: "Terminologiepflege in langfristiger Wirtschaftsübersetzung · Global Language Solutions",
       description:
         "Was ein Unternehmen davon hat, seine Terminologie einmal festzulegen und den Bestand über alle folgenden Dokumente aktuell zu halten.",
     },
@@ -305,7 +305,7 @@ export const insights = {
   /** /insights — the listing page. */
   index: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
       description:
         "Praxisnahe Beiträge zu beglaubigten Übersetzungen, Bildungsnachweisen, Einwanderungsanträgen und Terminologie, von den Übersetzern, die sie erstellen.",
     },
@@ -321,7 +321,7 @@ export const insights = {
   /** /insights/[slug] — the furniture around an article. */
   article: {
     /** <title> used when a slug matches no article. */
-    metaTitleFallback: "Fachbeitrag · OCT Services",
+    metaTitleFallback: "Fachbeitrag · Global Language Solutions",
     related: {
       eyebrow: "FACHBEITRÄGE",
       heading: "Unsere neuesten Beiträge",

@@ -32,7 +32,7 @@ export const home = {
    */
   about: {
     eyebrow: "ÜBER UNS",
-    headingLead: "OCT Services erstellt beglaubigte ",
+    headingLead: "Global Language Solutions erstellt beglaubigte ",
     headingFaded: "Übersetzungen für Einwanderung, Bildung und Wirtschaft. \u2028\u2028",
     headingFadedClosing:
       "Jedes Dokument wird für die Behörde oder Institution vorbereitet, die es annehmen muss.",

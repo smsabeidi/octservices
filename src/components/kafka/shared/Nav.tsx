@@ -26,11 +26,15 @@ import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { localePath, nav, routes } from "@/content/site";
 import type { Dictionary } from "@/i18n/dictionaries/en";
 
-/* OCT Services wordmark. Same construction as the source KAFKA mark — Inter
-   SemiBold caps on a 43px box, 2px left inset, raised TM at the trailing edge —
-   set at a 22px cap height so the longer name lands at 215x43 (5:1). */
-const LOGO_WHITE = "/logo/oct-services-white.svg";
-const LOGO_BLACK = "/logo/oct-services-ink.svg";
+/* Global Language Solutions, stacked lockup. Same construction as the mark it
+   replaces — Inter SemiBold, -0.008em tracking, 2px left inset in a 43px box,
+   raised TM at the trailing edge — but set over two lines at a 15px cap height
+   (22px baseline to baseline). The name is twice the length of the old one, and
+   one line of it would need ~293px in the nav slot, which does not survive a
+   375px phone; stacked it fits in 168x43 at every width. The footer band, which
+   has room, uses the horizontal lockup instead. */
+const LOGO_WHITE = "/logo/gls-stacked-white.svg";
+const LOGO_BLACK = "/logo/gls-stacked-ink.svg";
 
 const linkText =
   "whitespace-pre-wrap text-[16px] leading-[1.2] tracking-[-0.02em] opacity-70 transition-opacity duration-200 hover:opacity-100";
@@ -125,13 +129,13 @@ export function Nav({
           <Link
             href={home}
             aria-label={t.logoLabel}
-            className="relative block h-[43px] w-[215px] cursor-pointer overflow-clip max-[560px]:h-[34px] max-[560px]:w-[170px]"
+            className="relative block h-[43px] w-[168px] cursor-pointer overflow-clip"
           >
             {/* eslint-disable-next-line @next/next/no-img-element -- SVG wordmark, no optimization needed */}
             <img
               src={transparent ? LOGO_WHITE : LOGO_BLACK}
               alt=""
-              width={215}
+              width={168}
               height={43}
               className="block h-full w-full object-cover object-center"
             />

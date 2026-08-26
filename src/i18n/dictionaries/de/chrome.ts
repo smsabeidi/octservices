@@ -6,7 +6,7 @@
  */
 export const chrome = {
   /** Accessible name on the wordmark links in the nav and the footer. */
-  logoLabel: "OCT Services",
+  logoLabel: "Global Language Solutions",
 
   /** Strapline carried over from the previous build. No page renders it today. */
   tagline: "Beglaubigte Übersetzung, Dolmetschen und Lokalisierung.",
@@ -46,7 +46,7 @@ export const chrome = {
     // trailing space included.
     address: {
       label: "Adresse",
-      lines: ["100 Example Street ", "Example City 00000"],
+      lines: ["6137 Lincolnia Rd", "Alexandria, VA 22312"],
     },
 
     workingHours: {
@@ -58,6 +58,6 @@ export const chrome = {
     menuLabel: "Menü",
 
     terms: "Nutzungsbedingungen",
-    copyright: "© 2026 OCT Services",
+    copyright: "© 2026 Global Language Solutions",
   },
 };

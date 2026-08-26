@@ -24,7 +24,7 @@ const articles: InsightsArticle[] = [
     description:
       "Ce que vérifie un organisme destinataire lorsqu’une traduction est certifiée, et comment un document est préparé pour être accepté du premier coup.",
     meta: {
-      title: "Ce qui rend une traduction certifiée acceptable · OCT Services",
+      title: "Ce qui rend une traduction certifiée acceptable · Global Language Solutions",
       description:
         "Pourquoi la certification est la plus petite partie du travail, et ce que vérifie réellement l’agent qui reçoit un document traduit.",
     },
@@ -110,7 +110,7 @@ const articles: InsightsArticle[] = [
     description:
       "Comment relevés de notes, diplômes et descriptifs de cours sont traduits pour les services d’admission et les organismes d’évaluation, et où s’arrête la traduction.",
     meta: {
-      title: "Traduire des documents académiques pour l’évaluation des diplômes · OCT Services",
+      title: "Traduire des documents académiques pour l’évaluation des diplômes · Global Language Solutions",
       description:
         "Les organismes d’évaluation exigent une traduction certifiée en anglais avant d’examiner un relevé de notes. Où s’arrête la traduction et où commence l’évaluation.",
     },
@@ -125,7 +125,7 @@ const articles: InsightsArticle[] = [
       { type: "h2", text: "Deux étapes, et non une" },
       { type: "p", text: "Les candidats supposent souvent qu’une évaluation de diplômes comprend la traduction. Ce n’est pas le cas. Des organismes comme World Education Services et Educational Credential Evaluators, tous deux membres de NACES, exigent des traductions certifiées en anglais des documents en langue étrangère avant de commencer leur travail." },
       { type: "p", text: "Les deux étapes répondent à des questions différentes. Une traduction dit ce qu’énonce un document, intégralement et en anglais. Une évaluation dit ce que ce document vaut dans le système éducatif du pays d’accueil\u00A0: à quel diplôme il correspond, comment les notes se convertissent et si l’établissement émetteur est reconnu. L’une est un service linguistique, l’autre une expertise." },
-      { type: "p", text: "OCT Services assure la traduction. Nous n’évaluons pas les diplômes et nous ne délivrons pas d’attestations d’équivalence. Savoir dès le départ laquelle des deux prestations vous achetez évite en général un échange de courriers et une semaine d’attente." },
+      { type: "p", text: "Global Language Solutions assure la traduction. Nous n’évaluons pas les diplômes et nous ne délivrons pas d’attestations d’équivalence. Savoir dès le départ laquelle des deux prestations vous achetez évite en général un échange de courriers et une semaine d’attente." },
       { type: "h2", text: "Ce qu’un organisme d’évaluation doit voir" },
       { type: "p", text: "Ces organismes publient leurs exigences documentaires, et ces exigences sont précises." },
       { type: "p", text: "La plupart demandent une traduction anglaise complète, littérale, mot à mot, de chaque document académique, réalisée par un traducteur qualifié et non par le candidat, un proche ou le personnel administratif de l’établissement." },
@@ -183,7 +183,7 @@ const articles: InsightsArticle[] = [
     description:
       "Comment actes d’état civil, extraits de casier judiciaire et lettres justificatives sont traduits et certifiés pour un dossier qui doit être accepté.",
     meta: {
-      title: "Préparer les documents d’un dossier d’immigration · OCT Services",
+      title: "Préparer les documents d’un dossier d’immigration · Global Language Solutions",
       description:
         "Actes d’état civil, extraits de casier judiciaire et déclarations sous serment, préparés et certifiés pour qu’un dossier d’immigration ne revienne pas avec une demande de pièces.",
     },
@@ -249,7 +249,7 @@ const articles: InsightsArticle[] = [
     description:
       "Comment glossaires, mémoire de traduction et guide de style maintiennent la cohérence terminologique dans les documents d’une entreprise au fil des ans.",
     meta: {
-      title: "La gestion terminologique dans la traduction d’entreprise au long cours · OCT Services",
+      title: "La gestion terminologique dans la traduction d’entreprise au long cours · Global Language Solutions",
       description:
         "Ce qu’une entreprise gagne à trancher sa terminologie une fois et à tenir ce référentiel à jour dans tous les documents qui suivent.",
     },
@@ -310,7 +310,7 @@ export const insights: InsightsDict = {
   /** /insights — the listing page. */
   index: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
       description:
         "Des textes pratiques sur la traduction certifiée, les documents académiques, les dossiers d’immigration et la terminologie, par les linguistes qui les préparent.",
     },
@@ -326,7 +326,7 @@ export const insights: InsightsDict = {
   /** /insights/[slug] — the furniture around an article. */
   article: {
     /** <title> used when a slug matches no article. */
-    metaTitleFallback: "Ressource · OCT Services",
+    metaTitleFallback: "Ressource · Global Language Solutions",
     related: {
       eyebrow: "RESSOURCES",
       heading: "Découvrez nos dernières ressources",

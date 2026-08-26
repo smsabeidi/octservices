@@ -90,8 +90,8 @@ const jobs: Job[] = [
       { label: "النوع:", value: "دوام كامل" },
     ],
     seo: {
-      title: "مدير مشاريع · OCT Services",
-      description: "نسّق مشاريع الترجمة في OCT Services، من عرض السعر والنطاق إلى تكليف اللغويين والتسليم المعتمد.",
+      title: "مدير مشاريع · Global Language Solutions",
+      description: "نسّق مشاريع الترجمة في Global Language Solutions، من عرض السعر والنطاق إلى تكليف اللغويين والتسليم المعتمد.",
       ogImage: "/kafka/img/dW7lQMtwln30YCc5d986Pg7YGE.png",
     },
   },
@@ -175,8 +175,8 @@ const jobs: Job[] = [
       { label: "النوع:", value: "دوام كامل" },
     ],
     seo: {
-      title: "مترجم أول · OCT Services",
-      description: "وظيفة مترجم أول في OCT Services، تعمل فيها إلى لغتك الأم على ملفات يعتمد عليها العملاء.",
+      title: "مترجم أول · Global Language Solutions",
+      description: "وظيفة مترجم أول في Global Language Solutions، تعمل فيها إلى لغتك الأم على ملفات يعتمد عليها العملاء.",
       ogImage: "/kafka/img/vDyRaUb0I8ybD7E9tD2v84BoLNU.png",
     },
   },
@@ -254,8 +254,8 @@ const jobs: Job[] = [
       { label: "النوع:", value: "دوام كامل" },
     ],
     seo: {
-      title: "مراجع جودة · OCT Services",
-      description: "نفّذ المراجعة المستقلة على كل ترجمة معتمدة تسلّمها OCT Services، بمقارنة كل ملف بمستنده المصدر.",
+      title: "مراجع جودة · Global Language Solutions",
+      description: "نفّذ المراجعة المستقلة على كل ترجمة معتمدة تسلّمها Global Language Solutions، بمقارنة كل ملف بمستنده المصدر.",
       ogImage: "/kafka/img/5B0yTzRf3jvC8kbEfBqbcccLFBw.png",
     },
   },
@@ -263,7 +263,7 @@ const jobs: Job[] = [
 
 export const careers: CareersDict = {
   meta: {
-    fallbackTitle: "الوظائف · OCT Services",
+    fallbackTitle: "الوظائف · Global Language Solutions",
   },
   jobPage: {
     apply: "تواصل معنا",
@@ -271,7 +271,7 @@ export const careers: CareersDict = {
   joinUs: {
     eyebrow: "الوظائف",
     title: "انضم إلينا",
-    description: "انضم إلى OCT Services، فريق من اللغويين والمنسقين يتولى مستندات ينتظرها أفراد ومؤسسات.",
+    description: "انضم إلى Global Language Solutions، فريق من اللغويين والمنسقين يتولى مستندات ينتظرها أفراد ومؤسسات.",
     viewJob: "عرض الوظيفة",
   },
   jobs,

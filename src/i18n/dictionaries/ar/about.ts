@@ -12,10 +12,10 @@ import type { AboutDict } from "../en/about";
  */
 export const about: AboutDict = {
   meta: {
-    title: "OCT Services",
+    title: "Global Language Solutions",
     // The "\n " after the first sentence is in the English source and is kept.
     description:
-      "الأشخاص والعملية والمعيار وراء كل ترجمة تسلّمها OCT Services.\n اقرأ كيف ينتقل المستند من عرض السعر إلى شهادة موقّعة.",
+      "الأشخاص والعملية والمعيار وراء كل ترجمة تسلّمها Global Language Solutions.\n اقرأ كيف ينتقل المستند من عرض السعر إلى شهادة موقّعة.",
   },
 
   hero: {
@@ -30,6 +30,10 @@ export const about: AboutDict = {
     headingLead: "مهمتنا هي ",
     headingRest:
       "إزالة حاجز اللغة، ليُفهم كل ملف وطلب واتفاق تمامًا كما كُتب.",
+    /** Ownership line under the mission statement: the company behind the
+        brand, disclosed here and again in the terms. */
+    ownership:
+      "Global Language Solutions مملوكة لشركة OCT Services وتُدار من قِبلها.",
   },
 
   founder: {
@@ -139,7 +143,7 @@ export const about: AboutDict = {
     eyebrow: "الوظائف",
     heading: "انضم إلينا",
     intro:
-      "انضم إلى OCT Services، فريق من اللغويين والمنسقين يتولى مستندات ينتظرها أفراد ومؤسسات.",
+      "انضم إلى Global Language Solutions، فريق من اللغويين والمنسقين يتولى مستندات ينتظرها أفراد ومؤسسات.",
     employmentType: "دوام كامل",
     location: "عن بُعد",
     cta: "عرض الوظيفة",

@@ -7,9 +7,10 @@
  * 80px 24px 36px. Three 1440px-max rows:
  *   1) heading/body | contact columns | numbered menu links (row → column
  *      below 1200px; contact columns go row-of-3 on tablet only)
- *   2) giant white wordmark (object-fit cover in a wide box that crops the
-      mark's padding away; aspect 8.8 for the 215x43 OCT Services wordmark,
-      4.7 for the 136x43 source mark) + 360x240 video
+ *   2) giant white wordmark + 360x240 video. The horizontal Global Language
+ *      Solutions lockup is exported on a tight viewBox (398x31.6), so the box
+ *      aspect matches the artwork and object-cover crops nothing; the source
+ *      mark carried padding and relied on a 4.7 box to crop it away.
  *      (row → column on tablet only)
  *   3) terms | email | copyright (row of three flex-1 cells at every width)
  *
@@ -26,7 +27,7 @@ import Link from "next/link";
 import { footerNav, localePath, routes, site } from "@/content/site";
 import type { Dictionary } from "@/i18n/dictionaries/en";
 
-const LOGO_WHITE = "/logo/oct-services-white.svg";
+const LOGO_WHITE = "/logo/gls-wordmark-white.svg";
 const VIDEO = "/kafka/video/o9llhmt5io9I7YuFKtGeefHaXI.mp4";
 
 /* Text presets from the source CSS bundle */
@@ -191,14 +192,14 @@ export function Footer({
         <Link
           href={localePath(routes.home, locale)}
           aria-label={t.logoLabel}
-          className="relative block aspect-[8.8] w-px flex-[1_0_0px] cursor-pointer overflow-clip min-[810px]:max-[1199px]:w-full min-[810px]:max-[1199px]:flex-none"
+          className="relative block aspect-[12.6] w-px flex-[1_0_0px] cursor-pointer overflow-clip min-[810px]:max-[1199px]:w-full min-[810px]:max-[1199px]:flex-none"
         >
-          {/* eslint-disable-next-line @next/next/no-img-element -- SVG wordmark stretched to a 4.7 aspect box, per source */}
+          {/* eslint-disable-next-line @next/next/no-img-element -- SVG wordmark, no optimization needed */}
           <img
             src={LOGO_WHITE}
             alt=""
-            width={215}
-            height={43}
+            width={398}
+            height={32}
             className="absolute inset-0 block h-full w-full object-cover object-center"
           />
         </Link>

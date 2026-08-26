@@ -13,9 +13,9 @@
 export const about = {
   /** Page-level <head> copy (was the static `metadata` export on the page). */
   meta: {
-    title: "OCT Services",
+    title: "Global Language Solutions",
     description:
-      "The people, the process and the standard behind every translation OCT Services delivers.\n Read how a document moves from quote to signed certificate.",
+      "The people, the process and the standard behind every translation Global Language Solutions delivers.\n Read how a document moves from quote to signed certificate.",
   },
 
   hero: {
@@ -30,6 +30,10 @@ export const about = {
     headingLead: "Our mission is ",
     headingRest:
       "to remove language as an obstacle, so that every filing, application and agreement is understood exactly as written.",
+    /** Ownership line under the mission statement: the company behind the
+        brand, disclosed here and again in the terms. */
+    ownership:
+      "Global Language Solutions is owned and operated by OCT Services.",
   },
 
   founder: {
@@ -145,7 +149,7 @@ export const about = {
     eyebrow: "CAREER",
     heading: "Join us",
     intro:
-      "Join OCT Services, a team of linguists and coordinators handling documents that people and institutions are waiting on.",
+      "Join Global Language Solutions, a team of linguists and coordinators handling documents that people and institutions are waiting on.",
     /** Shared by every opening in the list. */
     employmentType: "Full time",
     location: "Remote",

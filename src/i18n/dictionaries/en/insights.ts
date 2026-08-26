@@ -77,7 +77,7 @@ const articles: InsightsArticle[] = [
     description:
       "What a receiving authority checks when a translation is certified, and how a document is prepared so that it is accepted the first time.",
     meta: {
-      title: "What makes a certified translation acceptable · OCT Services",
+      title: "What makes a certified translation acceptable · Global Language Solutions",
       description:
         "Why certification is the smallest part of the work, and what a reviewer is actually checking when a translated document reaches them.",
     },
@@ -163,7 +163,7 @@ const articles: InsightsArticle[] = [
     description:
       "How transcripts, diplomas and course records are translated for admissions offices and credential evaluators, and where translation ends.",
     meta: {
-      title: "Translating academic records for credential evaluation · OCT Services",
+      title: "Translating academic records for credential evaluation · Global Language Solutions",
       description:
         "Credential evaluators need a certified English translation before they can assess a transcript. Where translation ends and evaluation begins.",
     },
@@ -178,7 +178,7 @@ const articles: InsightsArticle[] = [
       { type: "h2", text: "Two Steps, Not One" },
       { type: "p", text: "Applicants often assume that a credential evaluation includes translation. It does not. Evaluators such as World Education Services and Educational Credential Evaluators, both members of NACES, require certified English translations of foreign language records before they will begin work." },
       { type: "p", text: "The two steps answer different questions. A translation says what a document states, completely and in English. An evaluation says what that document is worth in the education system of the receiving country: which qualification it corresponds to, how the grades convert, and whether the issuing institution is recognised. One is a language service and the other is an assessment." },
-      { type: "p", text: "OCT Services provides the translation. We do not evaluate credentials and we do not issue equivalency statements. Knowing which of the two you are buying at the start usually saves a round of correspondence and a week of waiting." },
+      { type: "p", text: "Global Language Solutions provides the translation. We do not evaluate credentials and we do not issue equivalency statements. Knowing which of the two you are buying at the start usually saves a round of correspondence and a week of waiting." },
       { type: "h2", text: "What an Evaluator Needs to See" },
       { type: "p", text: "Evaluators publish their document requirements, and those requirements are specific." },
       { type: "p", text: "Most ask for a complete, literal, word for word English translation of every academic document, prepared by a qualified translator rather than by the applicant, a relative or the institution’s own office staff." },
@@ -236,7 +236,7 @@ const articles: InsightsArticle[] = [
     description:
       "How civil records, police certificates and supporting letters are translated and certified for a filing that has to be accepted.",
     meta: {
-      title: "Preparing documents for an immigration filing · OCT Services",
+      title: "Preparing documents for an immigration filing · Global Language Solutions",
       description:
         "Civil records, police certificates and affidavits, prepared and certified so that an immigration filing is not sent back for more evidence.",
     },
@@ -302,7 +302,7 @@ const articles: InsightsArticle[] = [
     description:
       "How glossaries, translation memory and a style guide keep terminology consistent across a company’s documents over the years.",
     meta: {
-      title: "Terminology management in long term business translation · OCT Services",
+      title: "Terminology management in long term business translation · Global Language Solutions",
       description:
         "What a company gets back from settling its terminology once and keeping the record current across every document that follows.",
     },
@@ -363,7 +363,7 @@ export const insights = {
   /** /insights — the listing page. */
   index: {
     meta: {
-      title: "OCT Services",
+      title: "Global Language Solutions",
       description:
         "Practical writing on certified translation, academic records, immigration filings and terminology, from the linguists who prepare them.",
     },
@@ -379,7 +379,7 @@ export const insights = {
   /** /insights/[slug] — the furniture around an article. */
   article: {
     /** <title> used when a slug matches no article. */
-    metaTitleFallback: "Insight · OCT Services",
+    metaTitleFallback: "Insight · Global Language Solutions",
     related: {
       eyebrow: "INSIGHTS",
       heading: "Explore our latest insights",

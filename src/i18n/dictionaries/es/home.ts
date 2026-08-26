@@ -40,7 +40,7 @@ export const home: Translated<HomeDict> = {
    */
   about: {
     eyebrow: "SOBRE NOSOTROS",
-    headingLead: "OCT Services ofrece traducción ",
+    headingLead: "Global Language Solutions ofrece traducción ",
     headingFaded: "certificada para inmigración, educación y empresa. \u2028\u2028",
     headingFadedClosing:
       "Cada expediente se prepara para la oficina o institución que debe aceptarlo.",

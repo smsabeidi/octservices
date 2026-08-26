@@ -13,9 +13,9 @@ import type { Translated } from "./index";
  */
 export const contact: Translated<ContactDict> = {
   meta: {
-    title: "OCT Services",
+    title: "Global Language Solutions",
     description:
-      "Envíe a OCT Services sus documentos, sus idiomas y su plazo, y le responderemos por escrito con un alcance y una fecha cerrados.",
+      "Envíe a Global Language Solutions sus documentos, sus idiomas y su plazo, y le responderemos por escrito con un alcance y una fecha cerrados.",
   },
 
   hero: {
@@ -28,7 +28,7 @@ export const contact: Translated<ContactDict> = {
     talk: {
       label: "Hablemos",
       email: "info@octservices.com",
-      phone: "+45 121 231 289",
+      phone: "+1 332 400 6423",
     },
     hours: {
       label: "Horario de atención",
@@ -37,8 +37,8 @@ export const contact: Translated<ContactDict> = {
     },
     address: {
       label: "Dirección",
-      line1: "ul. Św Jacka 21 ",
-      line2: "38-102 Warszawa",
+      line1: "6137 Lincolnia Rd",
+      line2: "Alexandria, VA 22312",
     },
   },
 

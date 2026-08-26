@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Nav } from "@/components/kafka/shared/Nav";
 import { Footer } from "@/components/kafka/shared/Footer";
 import { ContactForm } from "@/components/kafka/shared/ContactForm";
+import { site } from "@/content/site";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 
@@ -151,7 +152,7 @@ export default async function ContactPage({
                   </h5>
                   <h5 className={`${h5} text-ink`}>
                     <a
-                      href="tel:+45121231289"
+                      href={site.phoneHref}
                       target="_blank"
                       rel="noopener"
                       className={linkClass}
@@ -169,7 +170,7 @@ export default async function ContactPage({
                 <DetailBlock label={t.details.address.label}>
                   <h5 className={`${h5} text-ink`}>
                     <a
-                      href="https://www.google.com/maps"
+                      href={site.mapsUrl}
                       target="_blank"
                       rel="noopener"
                       className={linkClass}
@@ -179,7 +180,7 @@ export default async function ContactPage({
                   </h5>
                   <h5 className={`${h5} text-ink`}>
                     <a
-                      href="https://www.google.com/maps"
+                      href={site.mapsUrl}
                       target="_blank"
                       rel="noopener"
                       className={linkClass}
@@ -200,7 +201,7 @@ export default async function ContactPage({
         <div className="relative h-[600px] w-full flex-none">
           <iframe
             title={t.map.title}
-            src="https://maps.google.com/maps?q=Warsaw&z=15&output=embed"
+            src={site.mapsEmbedUrl}
             className="h-full w-full border-0"
           />
         </div>

@@ -30,6 +30,11 @@ export function Mission({ t }: { t: Dictionary["about"]["mission"] }) {
                 {t.headingRest}
               </span>
             </h2>
+            {/* Ownership disclosure. Set to the section's h6 preset so it reads
+                as a footnote to the mission statement, not a second heading. */}
+            <p className="mt-8 whitespace-pre-wrap break-words text-[16px] font-normal leading-[1.2] tracking-[-0.02em] text-[rgba(16,16,16,0.5)]">
+              {t.ownership}
+            </p>
           </div>
         </div>
       </div>

@@ -12,9 +12,9 @@
 export const about = {
   /** Page-level <head> copy. */
   meta: {
-    title: "OCT Services",
+    title: "Global Language Solutions",
     description:
-      "Die Menschen, der Prozess und der Anspruch hinter jeder Übersetzung von OCT Services.\n Lesen Sie, wie ein Dokument vom Angebot bis zur unterzeichneten Bestätigung läuft.",
+      "Die Menschen, der Prozess und der Anspruch hinter jeder Übersetzung von Global Language Solutions.\n Lesen Sie, wie ein Dokument vom Angebot bis zur unterzeichneten Bestätigung läuft.",
   },
 
   hero: {
@@ -29,6 +29,10 @@ export const about = {
     headingLead: "Unsere Mission ist es, ",
     headingRest:
       "Sprache als Hindernis zu beseitigen, damit jeder Antrag, jede Bewerbung und jeder Vertrag genau so verstanden wird, wie er geschrieben steht.",
+    /** Ownership line under the mission statement: the company behind the
+        brand, disclosed here and again in the terms. */
+    ownership:
+      "Global Language Solutions gehört OCT Services und wird von OCT Services betrieben.",
   },
 
   founder: {
@@ -144,7 +148,7 @@ export const about = {
     eyebrow: "KARRIERE",
     heading: "Kommen Sie zu uns",
     intro:
-      "Kommen Sie zu OCT Services, einem Team aus Übersetzern und Koordinatoren, das Unterlagen bearbeitet, auf die Menschen und Behörden warten.",
+      "Kommen Sie zu Global Language Solutions, einem Team aus Übersetzern und Koordinatoren, das Unterlagen bearbeitet, auf die Menschen und Behörden warten.",
     /** Shared by every opening in the list. */
     employmentType: "Vollzeit",
     location: "Remote",
